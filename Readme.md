@@ -20,3 +20,7 @@
 
 ### 6. Increment and decrement counter
 ![increment](https://github.com/charukirti/JavaScript-Projects/assets/108792404/adf3f09c-3ce6-46b9-88ca-59bced717ed0)
+
+### 7. Age Calculator
+![Age-calculator](https://github.com/charukirti/JavaScript-Projects/assets/108792404/9a3b5ce4-d379-4f86-975a-c98a50ed462e)
+
