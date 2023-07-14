@@ -24,3 +24,6 @@
 ### 7. Age Calculator
 ![Age-calculator](https://github.com/charukirti/JavaScript-Projects/assets/108792404/9a3b5ce4-d379-4f86-975a-c98a50ed462e)
 
+### 8. Random Password Generator
+![random-password-generator](https://github.com/charukirti/JavaScript-Projects/assets/108792404/9d6558f3-a748-4945-a8e8-14615277c44a)
+
