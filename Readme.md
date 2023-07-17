@@ -27,3 +27,5 @@
 ### 8. Random Password Generator
 ![random-password-generator](https://github.com/charukirti/JavaScript-Projects/assets/108792404/9d6558f3-a748-4945-a8e8-14615277c44a)
 
+### 9. Calculator
+![calculator-preview](https://github.com/charukirti/JavaScript-Projects/assets/108792404/d775e0c0-f83d-470f-8f7c-c7050a14a577)
