@@ -10,7 +10,7 @@ body {
   align-items: center;
   min-height: 100vh;
   font-family: "Ubuntu", sans-serif;
-  background: url("/background.png");
+  background: url("background.png");
   margin: 0 auto;
 }
 
