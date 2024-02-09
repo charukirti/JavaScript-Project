@@ -1,0 +1,30 @@
+@media screen and (max-width: 425px) {
+    .search_result-componen {
+      padding: 0.8rem;
+    }
+  
+    .profile-name #name {
+      font-size: 1.2rem;
+    }
+  
+    .profile-name #user {
+      font-size: 0.8rem;
+    }
+  
+    #joining-date {
+      font-size: 0.8rem;
+    }
+  
+    .profile-stats li {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      /* gap: 0.8rem; */
+      font-size: 0.7rem;
+    }
+  
+    .profile-stats li strong {
+      font-size: 0.8rem;
+    }
+  }
+  

@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root {
+  --btn: ;
+  --btn-hover: #60abff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img,
+svg {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #141d2f;
+}
+
+/* styling form */
+.user-search {
+  width: 100%;
+  max-width: 700px;
+}
+
+.user-search .user-search__input {
+  width: 100%;
+  display: block;
+  border: none;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  font-family: inherit;
+  box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+    0 15px 40px rgba(0, 0, 0, 0.1);
+}
+
+.user-search .user-search__input:focus {
+  outline: none;
+}
+
+.user-search .user-search__input::placeholder {
+  color: #bbb;
+}
+
+/* styling error message content */
+
+.error-msg {
+  margin-bottom: 1rem;
+  font-family: inherit;
+  font-size: 1.2rem;
+  color: #e74c3c;
+}
+
+/* styling card section */
+
+.search_result-component {
+  max-width: 800px;
+  /* background-color: #ff6b81; */
+  background-color: #2d3436;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  margin: 0 1.5rem;
+}
+
+/* styling avatar */
+.avatar {
+  border-radius: 50%;
+  border: 5px solid #2a2a72;
+  height: 7.5rem;
+  width: 7.5rem;
+}
+
+/* styling  profile info*/
+
+.profile-info {
+  text-align: center;
+  margin-top: 0.2rem;
+
+  .profile-name #name {
+    color: #ff7979;
+    font-family: inherit;
+    font-weight: 900;
+    margin-bottom: 0.5rem;
+  }
+
+  .profile-name #user {
+    color: #6c5ce7;
+    font-size: 1rem;
+    font-weight: 800;
+    font-family: inherit;
+    margin-bottom: 0.5rem;
+  }
+  #joining-date {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    color: #c7ecee;
+  }
+  #bio {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    line-height: 1.5;
+    color: #95afc0;
+  }
+}
+
+/* styling profile stats */
+
+.profile-stats {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.profile-stats li {
+  color: #c7ecee;
+}
+
+.profile-stats li strong {
+  color: #686de0;
+}
+
+/* styling profile-content_footer */
+
+.profile-content_footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.25rem;
+}
+
+.profile-content_footer .profile-info {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  font-size: 0.8rem;
+  color: #7ed6df;
+}
+
+.profile-content_footer .profile-info a {
+  color: #7ed6df;
+}
