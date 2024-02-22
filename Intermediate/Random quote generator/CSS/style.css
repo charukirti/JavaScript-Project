@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: 'Fredoka', sans-serif;
+  background-color: #353b48;
+}
+
+main {
+  background-color: #dfe4ea;
+  /* border: 2px solid red; */
+  width: 600px;
+  box-shadow: 0 10px 20px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 15px;
+  text-align: center;
+  padding: 50px;
+}
+
+main h1 {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #ff7f50;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+main h1::after {
+  content: '';
+  width: 9rem;
+  height: 3px;
+  border-radius: 3px;
+  background: #177ce5;
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+main blockquote {
+  color: #ff4757;
+  font-size: 1.45rem;
+  font-weight: 800;
+  min-height: 110px;
+}
+
+main blockquote::before,
+main blockquote::after {
+  content: '"';
+}
+
+main span {
+  display: block;
+  margin-top: 10px;
+  text-align: right;
+  position: relative;
+  font-size: 1.25rem;
+  color: #5352ed;
+}
+
+/* styling buttons */
+
+main div {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+main button {
+  background: transparent;
+  padding: 12px;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid #70a1ff;
+  border-radius: 10px;
+}
+
+main button i {
+  font-size: 1.35rem;
+}
