@@ -12,11 +12,15 @@
     <div class="container">
         <span class="container__title">Countdown Timer</span>
 
+        <!-- labels -->
+
         <div class="container__labels">
             <p class="container__labels--label">Hours</p>
             <p class="container__labels--label">Minutes</p>
             <p class="container__labels--label">Seconds</p>
         </div>
+
+        <!-- input container starts -->
 
         <div class="container__inputs">
             <input type="Number" class="container__inputs--time hours" maxlength="2"
@@ -33,11 +37,17 @@
                 oninput="this.value = this.value.slice(0, this.maxLength)" placeholder="00" />
         </div>
 
+        <!-- input container ends -->
+
+        <!-- button container starts -->
+
         <div class="container__btns">
             <button class="btn start">Start</button>
             <button class="btn stop">Stop</button>
             <button class="btn reset">Reset</button>
         </div>
+
+        <!-- button container ends -->
     </div>
     <script src="script.js"></script>
 </body>
