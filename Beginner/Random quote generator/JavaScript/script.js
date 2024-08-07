@@ -13,17 +13,18 @@ async function generateQuote() {
 
     try {
 
-        const res = await fetch('https://api.quotable.io/random');
+        const res = await fetch('https://dummyjson.com/quotes');
 
         if (!res.ok) {
-            throw new Error(`Network response was not ok: ${response.status}`);
+            throw new Error(`Network response was not ok: ${res.status}`);
         }
 
         const data = await res.json()
+        console.log(data)
 
         /* destructuring data */
-
-        const { content: quote, author } = data
+        const randomIndex = Math.floor(Math.random() * data.quotes.length);
+        const { quote, author } = data.quotes[randomIndex];
 
         /* displaying quote and author */
         quoteElement.textContent = quote;
